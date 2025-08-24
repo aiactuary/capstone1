@@ -3,7 +3,7 @@
 # Capstone part 1 — Module 20.1 — Initial Report & Exploratory Data Analysis (EDA)
 I work as an actuary in life insurance company, pricing lapse-supported life insurance products. Main research question of my project is: "Can machine learning classification models (logistic regression, decision trees, random forest, gradient boosting, and SVM) predict which policyholders are likely to lapse their life insurance policy within the next 12 months?". This report summarizes the results of exploratory data analysis (EDA) and offers a baseline model for predicting policyholder lapse (using churn as a proxy). I will continue with exploring other models in second part of my capstone project.
 
-#Note
+# Note
 Although the Telco Customer Churn dataset already appears in the syllabus for basic classification exercises, this project uses it in a non-standard, domain-specific way. Instead of stopping at model accuracy, I reframed churn as an insurance lapse analogue, applied threshold tuning, calibration, and risk-decile segmentation, and translated results into actionable business implications for lapse-sensitive products. This shows how even a familiar dataset can generate new insights and practical value when aligned with real industry contexts.
 
 ## Files
