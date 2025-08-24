@@ -41,7 +41,7 @@ Predictive modeling can meaningfully separate higher- and lower-risk policyholde
 - Add calibration and business-threshold analysis (already scaffolded in the notebook).
 - Convert predicted probabilities into actionable lapse-risk tiers for retention campaigns.
 
-[![Optional: Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aiactuary/capstone1/blob/main/capstone_lapse_eda.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aiactuary/capstone1/blob/main/capstone_lapse_eda.ipynb)
 
 
 
