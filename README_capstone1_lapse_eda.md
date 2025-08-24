@@ -9,11 +9,12 @@ Although the Telco Customer Churn dataset already appears in the syllabus for ba
 ## Files
 
 - [Jupyter Notebook — `capstone_lapse_eda.ipynb`](capstone_lapse_eda.ipynb)
+- [Dataset - 'WA_Fn-UseC_-Telco-Customer-Churn.csv'](WA_Fn-UseC_-Telco-Customer-Churn.csv)
 
 
 ## Summary of Findings (Initial EDA & Baseline)
 
-- **Dataset**: 7,043 customers from the [Telco Customer Churn dataset (Kaggle)](https://www.kaggle.com/blastchar/telco-customer-churn), including demographic, contract, billing, and service usage features.
+- **Dataset**: 7,043 customers from the "https://github.com/aiactuary/capstone1/raw/main/WA_Fn-UseC_-Telco-Customer-Churn.csv", including demographic, contract, billing, and service usage features.
 - **Target distribution**: About **26%** of customers churned (lapsed), showing moderate class imbalance.
 - **EDA insights**:
   - Customers with **month-to-month contracts** lapse far more often than those with longer commitments.
