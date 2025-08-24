@@ -20,17 +20,17 @@ I work as an actuary in life insurance company, pricing lapse-supported life ins
   - Add-on services (e.g., Online Security, Tech Support) reduce lapse risk when subscribed.
 
 ### Baseline model (Logistic Regression)
-- **ROC-AUC ≈ 0.81** → good ability to rank high-risk vs low-risk customers.  
-- **Accuracy ≈ 0.73; Precision ≈ 0.62; Recall ≈ 0.58** → useful, but not strong enough for a pure yes/no decision.  
+- **ROC-AUC ≈ 0.86** → good ability to rank high-risk vs low-risk customers.  
+- **Accuracy ≈ 0.78; Precision ≈ 0.55; Recall ≈ 0.81** → good recall for identifying most churners, but precision is modest, so predictions are best used as a risk flag for retention actions, not as an absolute yes/no.  
 - Top predictors matched EDA findings: tenure, contract type, payment method, and monthly charges.  
 
 ### Interpretation and limitations
-- While accuracy looks fair, it is misleading because of class imbalance (most customers do not lapse).  
-- Precision and recall show the model **misses ~42% of actual lapsers** and sometimes flags non-lapsers as high risk.  
-- Instead of treating predictions as binary, I suggest using the model to assign **risk tiers** (e.g., top 10% highest scores = “high risk” cohort). This would allow customer retention teams to focus campaigns on those customers, where the likelihood of lapse is the highest.  
+- Accuracy looks fair, but it overstates performance because most customers do not churn.
+- With precision ≈ 0.55 and recall ≈ 0.81, the model catches most churners but also flags some non-churners.
+- Predictions are best used as risk tiers (e.g., top 10% = “high-risk” cohort) so retention teams can focus campaigns where the likelihood of churn is highest.
 
 ### Implication
-Predictive modeling can meaningfully separate higher- and lower-risk policyholders: even an imperfect baseline model highlights actionable segments for targeted retention.
+Predictive modeling can meaningfully separate higher- and lower-risk policyholders: even baseline model highlights actionable segments for targeted retention.
 
 ## Next Steps for Module 24
 
