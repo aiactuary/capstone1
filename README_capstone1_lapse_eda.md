@@ -29,14 +29,13 @@ I work as an actuary in life insurance company, pricing lapse-supported life ins
 - These shortcomings and opportunities for improvement will be **reassessed in the next stage**, where I will compare Logistic Regression against tree-based and ensemble methods and explore threshold tuning.  
 
 ### Implication
-Predictive modeling can meaningfully separate higher- and lower-risk policyholders. Even an imperfect baseline model highlights actionable segments for targeted retention, with further refinements expected in subsequent modules.  
+Predictive modeling can meaningfully separate higher- and lower-risk policyholders. Even an imperfect baseline model highlights actionable segments for targeted retention.
 
-## Next Steps
+## Next Steps for Module 24
 
 - Expand modeling with Decision Tree, Random Forest, Gradient Boosting, and SVM using cross-validation.
 - Add calibration and business-threshold analysis (already scaffolded in the notebook).
 - Convert predicted probabilities into actionable lapse-risk tiers for retention campaigns.
-- Prepare an executive brief linking results to business impact for Module 24.
 
 
 
