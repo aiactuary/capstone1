@@ -25,11 +25,10 @@ I work as an actuary in life insurance company, pricing lapse-supported life ins
 ### Interpretation and limitations
 - While accuracy looks fair, it is misleading because of class imbalance (most customers do not lapse).  
 - Precision and recall show the model **misses ~42% of actual lapsers** and sometimes flags non-lapsers as high risk.  
-- Instead of treating predictions as binary, the model is better used for **risk tiers** (e.g., top 10% highest scores = “high risk” cohort). This allows retention teams to focus campaigns where the likelihood of lapse is highest.  
-- These shortcomings and opportunities for improvement will be **reassessed in the next stage**, where I will compare Logistic Regression against tree-based and ensemble methods and explore threshold tuning.  
+- Instead of treating predictions as binary, I suggest using the model to assign **risk tiers** (e.g., top 10% highest scores = “high risk” cohort). This would allow customer retention teams to focus campaigns on those customers, where the likelihood of lapse is the highest.  
 
 ### Implication
-Predictive modeling can meaningfully separate higher- and lower-risk policyholders. Even an imperfect baseline model highlights actionable segments for targeted retention.
+Predictive modeling can meaningfully separate higher- and lower-risk policyholders: even an imperfect baseline model highlights actionable segments for targeted retention.
 
 ## Next Steps for Module 24
 
