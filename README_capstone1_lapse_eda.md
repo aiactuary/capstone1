@@ -4,7 +4,7 @@
 I work as an actuary in life insurance company, pricing lapse-supported life insurance products. Main research question of my project is: "Can machine learning classification models (logistic regression, decision trees, random forest, gradient boosting, and SVM) predict which policyholders are likely to lapse their life insurance policy within the next 12 months?"
 
 **Module 20.1 — Initial Report & Exploratory Data Analysis (EDA)**  
-This report summarizes the results of exploratory data analysis (EDA) and a serach of a baseline model for predicting policyholder lapse (using churn as a proxy). I will continue with exploring other models in second part of my capstone project.
+This report summarizes the results of exploratory data analysis (EDA) and offers a baseline model for predicting policyholder lapse (using churn as a proxy). I will continue with exploring other models in second part of my capstone project.
 
 ## Summary of Findings (Initial EDA & Baseline)
 
